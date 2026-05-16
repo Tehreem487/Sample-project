@@ -38,7 +38,7 @@ function Signup() {
 
     try {
       const res = await axios.post(
-        "http://localhost:5000/api/auth/signup",
+        "https://sample-project-production-4202.up.railway.app/api/auth/signup",
         formData
       );
 
